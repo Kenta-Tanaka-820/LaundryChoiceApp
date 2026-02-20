@@ -1,4 +1,12 @@
-export const includesAny = (text, keywords) => {
+import { normalizeText } from "./normalizeText";
+export const classifyMaterial = (ocrText) => {
+  if (includesAny(ocrText, DICT.delicate)) return "delicate";
+  if (includesAny(ocrText, DICT.synthetic)) return "synthetic";
+  if (includesAny(ocrText, DICT.cotton)) return "cotton";
+  return "unknown";
+};
+
+const includesAny = (text, keywords) => {
   const t = normalizeText(text);
   return keywords.some((k) => t.includes(normalizeText(k)));
 };
