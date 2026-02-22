@@ -19,6 +19,12 @@
   padding: 12px;
 }
 
+.haikei {
+  background: #7e7d96;
+  border-radius: 14px;
+  padding: 12px;
+}
+
 .row {
   margin: 8px 0;
   line-height: 1.7;
