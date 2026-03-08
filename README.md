@@ -18,6 +18,11 @@ npm install
 OPENAI_API_KEY=sk-xxxx
 # 任意（未指定時は gpt-4.1-mini）
 OPENAI_MODEL=gpt-4.1-mini
+
+# フロント（App.jsx）でOCR実行する場合はこちらも必要
+REACT_APP_OPENAI_API_KEY=sk-xxxx
+# 任意（未指定時は gpt-4.1-mini）
+REACT_APP_OPENAI_MODEL=gpt-4.1-mini
 ```
 
 3. 判定したい画像を `scripts/` フォルダに置く

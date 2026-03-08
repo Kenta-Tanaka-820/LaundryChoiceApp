@@ -29,3 +29,21 @@
   margin: 8px 0;
   line-height: 1.7;
 }
+
+.row input[type="file"] {
+  margin-right: 8px;
+}
+
+.errorText {
+  color: #c22e2e;
+  font-weight: 600;
+}
+
+.previewImage {
+  width: 100%;
+  max-width: 360px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  margin: 8px 0;
+  display: block;
+}
