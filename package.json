@@ -11,6 +11,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "ocr:test": "node scripts/ocr-test.js",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
